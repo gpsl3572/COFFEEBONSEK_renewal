@@ -1,0 +1,34 @@
+사이트 5개 찾기
+
+모던 하우스-> 가구
+커피 본색
+양산 시립도서관
+슈크레봉봉 http://sucrebonbon.com/product/list.html?cate_no=27
+제주도 감귤 농원 http://www.hueree.com/index.php
+김해 분청도자기 축제 http://festival.buncheong.net/index.jsp
+HMM 현대상선 http://www.hmm21.com/cms/company/korn/index.jsp
+
+
+커피 본색 당ㅇ첨
+어떤식으로 진행 될 지 계획을 적어
+
+커피 본색 
+
+11/20 금
+pc버전과 와 mo버전
+서치 후 현 사이트의 문제점 및 필요한 부분 조사 후 분석하여
+색상, 폰트, 레이아웃, 컨텐츠의내용, 움직임 기획 예정
+
+
+11/21 토
+pc버전과 mo버전
+각기 다른 해상도 와이어 프레임 스케치 예정
+
+11/22 일
+와이어프레임을 토대로
+pc버전 mo버전의 디자인 서치하여 
+기획 내용에 따라 디자인 시안 제작 예정
+
+
+11/23일 월
+피드백 후 수정

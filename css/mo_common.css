@@ -1,0 +1,64 @@
+@media(max-width:759px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+    .wrap{
+        display: none;
+    }
+
+    body{
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .mo_wrap{
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .mheader, .msection, .mfooter{
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+
+    .m_inheader, .m_infooter{
+        height: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .mcontainer{
+        height: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    
+    .top_mtext{
+        color: #eccd41;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    h2{
+        font-weight: 200;
+        line-height: 36px;
+        letter-spacing: -1px;
+        font-size: 32px;
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+}
+/* @media(max-width:759px) end */

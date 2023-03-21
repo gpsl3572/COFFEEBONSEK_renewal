@@ -1,0 +1,375 @@
+@media(max-width:759px){
+
+    .wrap{
+        display: none;
+    }
+
+    .mheader{
+        width: 100%;
+        height: 80px;
+        background-color: #000;
+        position: fixed;
+        top: 0; left: 0;
+        z-index: 90;
+        opacity: 0;
+        box-shadow: 0px 1px 10px 1px  rgba(133, 133, 133, 0.2);
+    }
+   /* ---------------------------------------------------- */
+
+/* ---------------------------------------------------------- */
+    .mheader{
+        backdrop-filter : blur(2px);
+    }
+
+    .m_inheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+
+    .m_logo{
+        line-height : 19px;
+        font-size: 18px;
+    }
+
+    .top_mlogo{
+        letter-spacing: 1px;
+    }
+    #m_btn{
+        display: none;
+    }
+
+    label{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        z-index: 99;
+        top: 20px; right: 10px;
+    }
+
+    label span{
+        width: 55%;
+        height: 4px;
+        margin: 5px auto; 
+        background-color: #fff;
+        display: block;
+    }
+
+    .top_mbtn{
+        margin-top: 10px;
+    }
+
+    .m_menu{
+        width: 100%;
+        height: 980px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 0; left: 100%;
+        transition: .5s;
+        backdrop-filter : blur(1px);
+    }
+
+    .m_menu li{
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .m_menu>.m_menu1{
+        margin-top: 50%;
+    }
+
+    #m_btn:checked~.m_menu{
+        left: 0;
+    }
+
+    /*----------------------------- m_header end */
+
+    .msection_1{
+        height: 100vh;
+        background: url(../img/msection1_bg.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .mlogo_img{
+        width: 95%;
+        /* margin: 130px auto; */
+        position: absolute;
+        top: 30px; left: auto;
+        z-index: 1;
+    }
+
+    .mlogo_img img{
+        width: 100%;
+    }
+
+
+    .m_vbox{
+        width: 66%;
+        height: 34%;
+        background-color: rgb(255, 183, 183);
+        position: absolute;
+        top: 101px; left: 83px;
+        transform: rotateZ(45deg);
+        overflow: hidden;
+    }
+
+    .m_vbox video{
+        width: 178%;
+        object-fit: contain;
+        object-position: center;
+        transform: rotateZ(0);
+        transform: translateX(-80px);
+    }
+    
+
+    .m_title_wrap1{
+        /* width: 350px;
+        height: 200px; */
+        color: #fff;
+        /* position: absolute;
+        bottom: 100px; left: 15%; */
+        text-align: center;
+        font-weight: 100;
+        margin: 120% auto;
+        /* background-color: rosybrown; */
+    }
+
+    .m_text1_1{
+        color: #eccd41;
+        letter-spacing: 21px;
+        margin-bottom: 40px;
+    }
+
+    .m_title_wrap1 h1{
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-size: 28px;
+    }
+
+    /* ---------------------------msection1 end */
+
+    .msection_2{
+        height: auto;
+        background-color: #fff;
+    }
+
+    .m_textbox2{
+        width: 100%;
+        height: 200px;
+        /* background-color: rosybrown; */
+        margin-top: 170px;
+        margin-bottom: 50px;
+    }
+
+    .mcon2{
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+        background-color: aquamarine;
+        margin-bottom: 110px;
+    }
+    
+    .mcon2 img{
+        width: 100%;
+    }
+
+    .mcon_textbox{
+        width: 450px;
+        height: 100px;
+        background-color: #000;
+        color: #fff;
+        position: absolute;
+        left: -45px; bottom: -50px;
+        z-index: 2;
+    }
+
+    .mcon_textbox p{
+        margin-left: 50px;
+        margin-top: 25px;
+        font-weight: 100;
+    }
+
+    .mcon_textbox p>span{
+        color: rgb(160, 160, 160);
+        letter-spacing: 1.5px;
+    }
+
+    .mcon2_4{
+        margin-bottom: 250px;
+    }
+
+/* ---------------------------------------msection_2 end */
+
+.msection_3{
+    background-color: #000;
+    height: 1100px;
+}
+
+.m_textbox3{
+    color: #fff;
+    text-align: right;
+    margin: 200px 0 100px;
+}
+
+.v_mbox3{
+    width: 100%;
+}
+
+/* -----------------------------------------msection_3  end */
+
+
+.msection_4{
+    height: 1000px;
+}
+
+.m_textbox4{
+    margin: 200px auto 0;
+    text-align: center;
+}
+
+.m_textbox4 h2{
+    letter-spacing: 0.5px;
+    line-height: 39px;
+}
+
+.mcon4_wrap{
+    /* background-color: #eccd41; */
+    margin-top: 60px;
+}
+
+.mcon4{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;
+  
+}
+
+.mcon4 div{
+    width: 150px;
+    height: 100%;
+    margin-right: 1px;
+    overflow: hidden;
+}
+
+.mcon4 .mcon4_3, .mcon4 .mcon4_6, .mcon4 .mcon4_9{
+    margin-right: 0;
+}
+
+.mcon4 div img{
+    width: 100%;
+}
+
+.inta_id{
+    font-weight: 100;
+    text-align: center;
+    margin-top: 65px;
+}
+
+/* --------------------------------msection_4 end */
+
+.mfooter{
+    height: 600px;
+    background-color: #000;
+}
+
+.msns{
+    width: 100%;
+    height:60px;
+    /* background-color: azure; */
+    margin: 60px auto;
+
+}
+
+.msns div{
+    float: left;
+    margin-left: 28px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.msns div img{
+    width: 100%;
+    height: 100%;
+}
+
+.mfoot_text{
+    width: 100%;
+    height: 300px;
+}
+
+.mfoot_text{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.mfootlogo{
+    color: #eccd41;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.mup_btn{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    right: 5%; bottom: 10%;
+}
+
+.mup_btn img{
+    width: 100%;
+}
+
+.mup_btn p{
+    text-align: center;
+    color: #fff;
+}
+
+.copy{
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+}
+/* @media(max-width:759px) end */
+
+@media(max-width:375px){
+    
+    .m_vbox{
+        width: 66%;
+        height: 30%;
+        background-color: #fff;
+        position: absolute;
+        top: 89px; left: 67px;
+        transform: rotateZ(45deg);
+        overflow: hidden;
+    }
+
+}
+/* iphone X */
+
+@media(max-width:360px){
+    
+    .m_vbox{
+        width: 66%;
+        height: 37%;
+        background-color: #fff;
+        position: absolute;
+        top: 13%; left: 17%;
+        transform: rotateZ(45deg);
+        overflow: hidden;
+    }
+
+}
